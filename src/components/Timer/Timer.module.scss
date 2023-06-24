@@ -1,0 +1,53 @@
+/* Timer container */
+.timercontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 250px;
+    background-color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Timer display */
+  .timer {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
+    font-family: "Courier New", monospace;
+  }
+
+  /* Timer controls */
+  .timercontrols {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .timerbutton {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 5px;
+  }
+
+  .timerbutton:hover {
+    background-color: darkgreen;
+  }
+
+  .timerbutton:active {
+    background-color: forestgreen;
+  }
